@@ -1,0 +1,12 @@
+//FUNCION ANONIMA//
+
+let displayAlert2 = function (message: string){
+    return ('This menssage is '+message);
+}
+console.log(displayAlert2('Hola me llamo Steven'))
+
+
+//FUNCION FLECHA//
+
+let displayAlert3 = (message:string)=>('This menssage is '+message);
+console.log(displayAlert3('Tengo 18 años!!'))
